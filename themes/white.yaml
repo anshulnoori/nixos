@@ -1,0 +1,22 @@
+system: "base16"
+name: "White (Omarchy)"
+author: "Omarchy (ported to base16)"
+variant: "light"
+
+palette:
+  base00: "ffffff"  # background
+  base01: "ffffff"  # color0 - white
+  base02: "c0c0c0"  # color8 - bright black
+  base03: "000000"  # color7 - black
+  base04: "1a1a1a"  # selection_background
+  base05: "000000"  # foreground
+  base06: "000000"  # color15 - black
+  base07: "000000"  # cursor
+  base08: "2a2a2a"  # color1 - dark grey
+  base09: "2a2a2a"  # color9 - bright dark grey
+  base0A: "4a4a4a"  # color3 - dark grey
+  base0B: "3a3a3a"  # color2 - grey
+  base0C: "3e3e3e"  # color6 - grey
+  base0D: "1a1a1a"  # accent / color4 - near black
+  base0E: "2e2e2e"  # color5 - dark grey
+  base0F: "2e2e2e"  # color13 - bright dark grey

@@ -1,0 +1,22 @@
+system: "base16"
+name: "Matte Black (Omarchy)"
+author: "Omarchy (ported to base16)"
+variant: "dark"
+
+palette:
+  base00: "121212"  # background
+  base01: "333333"  # color0 - dark black
+  base02: "8a8a8d"  # color8 - bright black
+  base03: "bebebe"  # color7 - light grey
+  base04: "333333"  # selection_background
+  base05: "bebebe"  # foreground
+  base06: "ffffff"  # color15 - white
+  base07: "eaeaea"  # cursor
+  base08: "D35F5F"  # color1 - red
+  base09: "B91C1C"  # color9 - bright red
+  base0A: "FFC107"  # color3 - yellow / amber
+  base0B: "FFC107"  # color2 - yellow (no distinct green)
+  base0C: "bebebe"  # color6 - grey (no cyan)
+  base0D: "e68e0d"  # accent / color4 - amber
+  base0E: "D35F5F"  # color5 - red (no distinct purple)
+  base0F: "B91C1C"  # color13 - dark red

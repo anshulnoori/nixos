@@ -1,0 +1,22 @@
+system: "base16"
+name: "Vantablack (Omarchy)"
+author: "Omarchy (ported to base16)"
+variant: "dark"
+
+palette:
+  base00: "0d0d0d"  # background
+  base01: "0d0d0d"  # color0 - near black
+  base02: "fdfdfd"  # color8 - bright (high contrast)
+  base03: "ececec"  # color7 - light grey
+  base04: "ffffff"  # selection_background
+  base05: "ffffff"  # foreground
+  base06: "ffffff"  # color15 - white
+  base07: "ffffff"  # cursor
+  base08: "a4a4a4"  # color1 - grey red
+  base09: "a4a4a4"  # color9 - bright grey
+  base0A: "cecece"  # color3 - light grey
+  base0B: "b6b6b6"  # color2 - grey green
+  base0C: "b0b0b0"  # color6 - grey cyan
+  base0D: "8d8d8d"  # accent / color4 - mid grey
+  base0E: "9b9b9b"  # color5 - grey purple
+  base0F: "9b9b9b"  # color13 - bright grey

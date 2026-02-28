@@ -1,0 +1,5 @@
+[SddmGreeterTheme]
+Name=NixOS
+Description=Minimal terminal-style login theme with Stylix color integration
+Type=sddm-theme
+Version=1.0

@@ -1,0 +1,22 @@
+system: "base16"
+name: "Catppuccin Latte (Omarchy)"
+author: "Omarchy / catppuccin (ported to base16)"
+variant: "light"
+
+palette:
+  base00: "eff1f5"  # background
+  base01: "bcc0cc"  # color0 - dark black
+  base02: "acb0be"  # color8 - bright black
+  base03: "5c5f77"  # color7 - light grey
+  base04: "dc8a78"  # selection_background
+  base05: "4c4f69"  # foreground
+  base06: "6c6f85"  # color15
+  base07: "dc8a78"  # cursor
+  base08: "d20f39"  # color1 - red
+  base09: "d20f39"  # color9 - bright red
+  base0A: "df8e1d"  # color3 - yellow
+  base0B: "40a02b"  # color2 - green
+  base0C: "179299"  # color6 - cyan
+  base0D: "1e66f5"  # accent / color4 - blue
+  base0E: "ea76cb"  # color5 - magenta
+  base0F: "ea76cb"  # color13 - bright magenta

@@ -1,0 +1,22 @@
+system: "base16"
+name: "Rose Pine (Omarchy)"
+author: "Omarchy / rose-pine (ported to base16)"
+variant: "light"
+
+palette:
+  base00: "faf4ed"  # background
+  base01: "f2e9e1"  # color0 - dark
+  base02: "9893a5"  # color8 - muted
+  base03: "575279"  # color7 - subtle
+  base04: "dfdad9"  # selection_background
+  base05: "575279"  # foreground
+  base06: "575279"  # color15
+  base07: "cecacd"  # cursor
+  base08: "b4637a"  # color1 - red / love
+  base09: "b4637a"  # color9 - bright red
+  base0A: "ea9d34"  # color3 - gold
+  base0B: "286983"  # color2 - pine
+  base0C: "d7827e"  # color6 - foam (rose)
+  base0D: "56949f"  # accent / color4 - foam
+  base0E: "907aa9"  # color5 - iris
+  base0F: "907aa9"  # color13 - bright iris

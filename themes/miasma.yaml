@@ -1,0 +1,22 @@
+system: "base16"
+name: "Miasma (Omarchy)"
+author: "Omarchy (ported to base16)"
+variant: "dark"
+
+palette:
+  base00: "222222"  # background
+  base01: "000000"  # color0 - dark black
+  base02: "666666"  # color8 - bright black
+  base03: "d7c483"  # color7 - light
+  base04: "78824b"  # selection_background
+  base05: "c2c2b0"  # foreground
+  base06: "d7c483"  # color15 - bright
+  base07: "c7c7c7"  # cursor
+  base08: "685742"  # color1 - brown
+  base09: "685742"  # color9 - bright brown
+  base0A: "b36d43"  # color3 - orange
+  base0B: "5f875f"  # color2 - green
+  base0C: "c9a554"  # color6 - gold
+  base0D: "78824b"  # accent / color4 - olive
+  base0E: "bb7744"  # color5 - rust
+  base0F: "bb7744"  # color13 - bright rust

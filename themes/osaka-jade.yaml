@@ -1,0 +1,22 @@
+system: "base16"
+name: "Osaka Jade (Omarchy)"
+author: "Omarchy (ported to base16)"
+variant: "dark"
+
+palette:
+  base00: "111c18"  # background
+  base01: "23372B"  # color0 - dark green-black
+  base02: "53685B"  # color8 - bright black
+  base03: "F6F5DD"  # color7 - cream
+  base04: "C1C497"  # selection_background
+  base05: "C1C497"  # foreground
+  base06: "9eebb3"  # color15 - bright mint
+  base07: "D7C995"  # cursor
+  base08: "FF5345"  # color1 - red
+  base09: "db9f9c"  # color9 - bright red
+  base0A: "E5C736"  # color11 - yellow
+  base0B: "549e6a"  # color2 - green
+  base0C: "2DD5B7"  # color6 - teal
+  base0D: "509475"  # accent / color4 - jade
+  base0E: "D2689C"  # color5 - pink
+  base0F: "75bbb3"  # color13 - teal

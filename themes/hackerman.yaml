@@ -1,0 +1,22 @@
+system: "base16"
+name: "Hackerman (Omarchy)"
+author: "Omarchy (ported to base16)"
+variant: "dark"
+
+palette:
+  base00: "0B0C16"  # background
+  base01: "0B0C16"  # color0 - dark black
+  base02: "6a6e95"  # color8 - bright black
+  base03: "85E1FB"  # color7 - light blue
+  base04: "ddf7ff"  # selection_background
+  base05: "ddf7ff"  # foreground
+  base06: "ddf7ff"  # color15 - bright white
+  base07: "ddf7ff"  # cursor
+  base08: "50f872"  # color1 - green (hackerman red is green)
+  base09: "85ff9d"  # color9 - bright green
+  base0A: "50f7d4"  # color3 - teal
+  base0B: "4fe88f"  # color2 - green
+  base0C: "7cf8f7"  # color6 - cyan
+  base0D: "82FB9C"  # accent / color4 (green accent)
+  base0E: "86a7df"  # color5 - blue-grey
+  base0F: "cddbf4"  # color13 - bright blue

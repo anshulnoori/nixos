@@ -1,0 +1,22 @@
+system: "base16"
+name: "Ristretto (Omarchy)"
+author: "Omarchy (ported to base16)"
+variant: "dark"
+
+palette:
+  base00: "2c2525"  # background
+  base01: "72696a"  # color0 - dark
+  base02: "948a8b"  # color8 - bright black
+  base03: "e6d9db"  # color7 - light
+  base04: "403e41"  # selection_background
+  base05: "e6d9db"  # foreground
+  base06: "f1e5e7"  # color15 - bright white
+  base07: "c3b7b8"  # cursor
+  base08: "fd6883"  # color1 - red
+  base09: "ff8297"  # color9 - bright red
+  base0A: "f9cc6c"  # color3 - yellow
+  base0B: "adda78"  # color2 - green
+  base0C: "85dacc"  # color6 - cyan
+  base0D: "f38d70"  # accent / color4 - orange
+  base0E: "a8a9eb"  # color5 - lavender
+  base0F: "bebffd"  # color13 - bright lavender
