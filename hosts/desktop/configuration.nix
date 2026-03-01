@@ -15,5 +15,7 @@
   # hardware.opengl.enable = true;
 
   services.automatic-timezoned.enable = true;
+
+  # https://nixos.org/manual/nixos/unstable/release-notes.html
   system.stateVersion = "25.11";
 }
