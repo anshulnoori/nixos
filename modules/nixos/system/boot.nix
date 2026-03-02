@@ -1,6 +1,7 @@
 {
   lib,
   config,
+  pkgs,
   ...
 }: let
   c = config.lib.stylix.colors;
@@ -30,6 +31,19 @@ in {
       term_palette: ${palette}
       term_palette_bright: ${paletteBright}
     '';
+  };
+
+  # ── Plymouth — styled LUKS passphrase prompt ───────────────────────────────
+  # simpledrm gives Plymouth a framebuffer from U-Boot's handoff on Apple Silicon.
+  boot.initrd.kernelModules = ["simpledrm"];
+  boot.plymouth = {
+    enable = true;
+    # spinner: centers the password prompt, ships with plymouth, no extra deps.
+    theme = "spinner";
+    # Override the spinner watermark with the NixOS snowflake logo.
+    logo = "${pkgs.nixos-icons}/share/icons/hicolor/48x48/apps/nix-snowflake-white.png";
+    # Use JetBrainsMono Nerd Font to match the rest of the system.
+    font = "${pkgs.nerd-fonts.jetbrains-mono}/share/fonts/truetype/NerdFonts/JetBrainsMono/JetBrainsMonoNerdFont-Regular.ttf";
   };
 
   services.snapper = {

@@ -112,11 +112,10 @@ in {
       enable = true;
       wayland.enable = true;
       theme = "nixos";
+      # extraPackages is for Qt runtime plugins only, not theme discovery.
+      # The theme package must be in systemPackages so SDDM finds share/sddm/themes/.
       extraPackages = with pkgs; [
         nerd-fonts.jetbrains-mono
-        (callPackage ../../../pkgs/sddm-theme {
-          stylixColors = config.lib.stylix.colors;
-        })
       ];
     };
 
@@ -125,6 +124,11 @@ in {
       extraPortals = [pkgs.xdg-desktop-portal-gtk];
     };
 
-    environment.systemPackages = [pkgs.theme-switcher];
+    environment.systemPackages = [
+      pkgs.theme-switcher
+      (pkgs.callPackage ../../../pkgs/sddm-theme {
+        stylixColors = config.lib.stylix.colors;
+      })
+    ];
   };
 }
